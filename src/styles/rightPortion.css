@@ -7,6 +7,10 @@
 .box-below-strip {
     /* border: 2px solid rebeccapurple; */
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
 }
 
 .strip {

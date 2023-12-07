@@ -1,7 +1,7 @@
 import React from 'react'
 import LeftPortion from './LeftPortion'
 import RightPortion from './RightPortion'
-import "../styles/details.css"
+import "../styles/Details.css"
 
 function Details() {
     return (
