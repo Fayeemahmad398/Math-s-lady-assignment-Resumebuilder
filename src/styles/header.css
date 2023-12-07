@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.downloadBtn {
+    height: 35px;
+    width: 120px;
+    color: black;
+    background: #fff;
+    border: 1px solid black;
+    margin-right: 50px;
+    border-radius: 2px;
+    font-size: 17px;
+}
+
+.downloadBtn:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background: #000;
+}
+
+.resume-icon-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}

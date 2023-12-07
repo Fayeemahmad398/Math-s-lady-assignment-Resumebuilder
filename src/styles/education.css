@@ -1,0 +1,14 @@
+.education-box {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    padding: 20px;
+}
+.inputs-boxes{
+    /* border: 3px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

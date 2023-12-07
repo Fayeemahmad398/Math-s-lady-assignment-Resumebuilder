@@ -1,0 +1,22 @@
+.skills-box {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 20px;
+
+}
+
+.skills-box input {
+    height: 24px;
+    width: 97%;
+    margin: auto;
+    border: none;
+    font-size: 14px;
+    outline: 1px solid grey;
+    font-weight: 600;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+}

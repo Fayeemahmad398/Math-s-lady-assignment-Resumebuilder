@@ -1,0 +1,32 @@
+.all-info-boxes-at-left {
+    /* border: 2px dotted blue; */
+    width: 300px;
+   
+
+}
+
+.form-container {
+    /* border: 4px dotted rgb(36, 33, 33); */
+    padding: 15px;
+}
+
+.left-info-box {
+    /* border: 1px solid red; */
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.left-info-box:hover {
+    cursor: pointer;
+}
+
+
+.plus-minus {
+    font-size: 27px;
+    font-weight: 700;
+}

@@ -1,0 +1,15 @@
+.summarry-box {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 20px;
+
+}
+.summarry-box textarea{
+    height: 60px;
+    padding: 3px;
+    outline: none;
+    outline: 1px solid black;
+}

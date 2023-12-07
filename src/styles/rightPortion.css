@@ -1,0 +1,171 @@
+.rightProtion {
+    display: flex;
+    width: 100%;
+
+}
+
+.box-below-strip {
+    /* border: 2px solid rebeccapurple; */
+    padding: 25px;
+}
+
+.strip {
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(164, 164, 224), rgb(240, 182, 240), rgb(175, 175, 243));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+
+.strip div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.strip div img {
+    height: 25px;
+    width: 25px;
+}
+
+.right-box-grey {
+    width: 100%;
+    background: #eeeef0;
+    padding: 50px 100px;
+
+}
+
+.box-right {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 100vh;
+
+}
+
+.cgpa {
+    /* border: 2px solid red; */
+    height: 25px;
+    width: 120px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #eeeef0;
+    border-left-color: grey;
+}
+
+.e-p-a-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.e-p-a {
+    color: grey;
+    font-size: 13px;
+}
+
+.summarry-details {
+    font-size: 13px;
+    display: inline-block;
+    margin: 10px 0px;
+
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.add-email-phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prof-name-img {
+    display: flex;
+    /* border: 2px dotted rgb(48, 48, 238); */
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 5px;
+
+}
+
+.prof-name-img img {
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+}
+
+
+
+.skills,
+.education,
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    gap: 10px;
+
+}
+
+.name-exp-skills {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.edu-expe-skill {
+    /* border: 2px dotted blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-copName {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skillsSets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skillsSets span {
+    border: 1px solid;
+    display: inline-block;
+    padding: 2px 5px;
+    background: #eeeef0;
+    border-radius: 10px;
+    font-size: 13px;
+
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+    height: 20px;
+    background: #eeeef0;
+    border-radius: 15px;
+    padding: 3px;
+    font-size: 15px;
+}

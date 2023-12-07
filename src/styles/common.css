@@ -1,0 +1,12 @@
+.common-btn {
+    background: black;
+    color: white;
+    height: 27px;
+    width: 95px;
+    border-radius: 3px;
+
+}
+
+.common-btn:hover {
+    cursor: pointer;
+}
