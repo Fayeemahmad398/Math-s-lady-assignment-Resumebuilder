@@ -2,7 +2,7 @@ import "../styles/rightPortion.css"
 import { useSelector } from 'react-redux';
 import PersonalInformation from "./PersonalInformation";
 import ProfessionalSummarry from "./ProfessionalSummarry";
-import ExperienceForm from "./experienceForm";
+import ExperienceForm from "./ExperienceForm";
 import EducationForm from "./EducationForm";
 import Skills from "./Skills";
 
